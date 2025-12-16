@@ -44,3 +44,4 @@ The product is used in **two parts**:
 
 1) **Survey Form (Data Capture)** – field or web app users enter farmer details, upload documents, and draw/submit land parcel polygons. This feeds the API endpoints for farmers, documents, and land parcels.  
 2) **Data Visualization (Insights & QA)** – dashboards/BI consume the API/database to display coverage, parcel areas, data completeness, and upload status. Typical outputs include farmer counts by region, parcel area summaries, and document upload health.
+
