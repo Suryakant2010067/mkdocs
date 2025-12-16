@@ -1,0 +1,42 @@
+site_name: NBS Farmer Registration API
+site_description: Official documentation for the NBS Farmer Registration backend API, database, and deployment setup.
+site_url: https://example.com/nbs-farmer-api
+
+theme:
+  name: material
+  language: en
+  palette:
+    - scheme: default
+      primary: green
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: green
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Fira Code
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Overview: overview.md
+  - Setup & Configuration: setup.md
+  - API Reference: api.md
+  - Database & Storage: database.md
+
+plugins:
+  - search
