@@ -5,7 +5,7 @@ This section documents the main REST endpoints exposed by the **NBS Farmer Regis
 All examples assume the API is available at:
 
 ```text
-BASE_URL = http://localhost:3000
+BASE_URL = https://backend-survey-13977221722.asia-south2.run.app
 ```
 
 ---
